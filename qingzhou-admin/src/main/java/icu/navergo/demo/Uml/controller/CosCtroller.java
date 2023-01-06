@@ -22,9 +22,9 @@ public class CosCtroller {
         try {
             //这里的 SecretId 和 SecretKey 代表了用于申请临时密钥的永久身份（主账号、子账号等），子账号需要具有操作存储桶的权限。
             // 替换为您的云 api 密钥 SecretId
-            config.put("secretId", "AKID1znQp00omW4OUM0QaVDj1LRJ0UnwviJn");
+            config.put("secretId", "");
             // 替换为您的云 api 密钥 SecretKey
-            config.put("secretKey", "MYYM0TlrmV1LVcbP3WpwrfNwMdkfO4d1");
+            config.put("secretKey", "");
 
             // 设置域名:
             // 如果您使用了腾讯云 cvm，可以设置内部域名
