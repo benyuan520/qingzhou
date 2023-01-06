@@ -1,0 +1,6 @@
+# 项目排除路径
+/qingzhou-admin/target/
+/qingzhou-common/target/
+/qingzhou-mp/target/
+/qingzhou-vx/target/
+/qingzhou-web/target/

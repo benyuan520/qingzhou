@@ -3,7 +3,7 @@ package icu.navergo.api;
 /*Serializable*/
 
 public enum ResultCode implements IErrorCode {
-    SUCCESS(200, "操作成功"),
+    SUCCESS(200, "操作成功200"),
     FAILED(500, "操作失败"),
     VALIDATE_FAILED(404, "参数检验失败"),
     UNAUTHORIZED(401, "暂未登录或session已经过期"),
